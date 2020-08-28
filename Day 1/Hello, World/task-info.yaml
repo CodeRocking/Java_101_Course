@@ -1,0 +1,24 @@
+type: edu
+files:
+- name: src/HelloWorld.java
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 15
+    placeholder_text: Enter Code Here
+    initial_state:
+      length: 15
+      offset: 0
+    initialized_from_dependency: false
+    possible_answer: |-
+      public class HelloWorld {
+         public static void main(String[] args) {
+            System.out.println("Hello, World!");
+         }
+      }
+    selected: false
+    status: Unchecked
+  text: Enter Code Here
+  learner_created: false
+status: Unchecked
+record: -1
